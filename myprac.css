@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* section one  */
+.sec-one{
+    background-image: url(./img/bg\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.head{
+    background-color: black;
+}
+.row{
+    display: flex;
+}
+.jsc{
+    justify-content: space-between;
+}
+.line{
+    line-height: 80px;
+}
+.link ul li{
+    list-style: none;
+}
+.link ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 14px;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+.logo img{
+    height: 80px;
+    vertical-align: bottom;
+}
